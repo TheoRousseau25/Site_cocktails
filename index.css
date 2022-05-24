@@ -1,0 +1,175 @@
+html, body {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+}
+
+nav {
+  padding: 10px;
+  border : white 0;
+  overflow: auto;
+  width: 1495px;
+}
+
+p.username {
+  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #008000;
+}
+
+form.formConnexion {
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+button.favoris {
+    float: right;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    padding: 0px;
+    display: block;
+    background-color: #008000;
+    border:2px solid green;
+    border-radius:8px;
+}
+
+button.connection {
+  float : right;
+  width: 250px;
+  height: 40px;
+  display: block;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  background-color: #008000;
+  border:2px solid green;
+  border-radius:8px;
+  color: white;
+  font-size: 17px;
+}
+
+button.index {
+  float : left;
+  width: 200px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  padding: 5px;
+  background-color: #008000;
+  border:2px solid green;
+  border-radius:8px;
+  color: white;
+  font-size: 17px;
+}
+
+input[type=submit].login {
+    float : right;
+    width: 250px;
+    height: 40px;
+    display: block;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: #008000;
+    border:2px solid green;
+    border-radius:8px;
+    color: white;
+    font-size: 17px;
+}
+
+main {
+	overflow: auto;
+	width : 1515px;
+}
+
+aside{
+    width: 300px;
+	float: left;
+	margin : 10px;
+	padding: 10px;
+	font-size : 16px;
+    border:2px solid green;
+    border-radius:8px;
+    background-color: #c4c2c2;
+}
+
+aside li {
+    list-style-type: '▸ ';
+}
+
+
+section {
+	width: 1125px;
+	margin : 10px;
+	padding : 10px;
+	float : right;
+    border:2px solid green;
+    border-radius:8px;
+    background-color: #c4c2c2;
+}
+
+section a {
+  color: black;
+  text-decoration : none;
+}    
+
+a {
+    color: black;
+}
+
+div {
+	height: 390px;
+	width: 200px;
+	float:left;
+	margin : 15px;
+    border:2px solid green;
+    border-radius:8px;
+    background-color: rgba(14, 180, 14, 0.55);
+}
+ 
+svg {
+	width: 25px;
+    height: 25px;
+}
+  
+img.cocktail {
+	height:75px;
+	width: 75px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+ 
+img {
+	height:30%;
+	width: 30%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+h1 {
+    text-align: center;
+    color: #008000;
+	padding-top : 5px;
+	margin : 0 0 10px 0;
+
+}
+
+h3 {
+    color: #008000;
+    padding-top: 10px;
+    margin : 0 0 10px 0;
+
+}
+
+h2 {
+    font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+ }

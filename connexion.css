@@ -1,0 +1,49 @@
+html {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 17px;
+}
+
+h2,h1 {
+    color: #008000;
+}
+
+fieldset {
+    border:2px solid green;
+    border-radius:8px;
+    width:600px;
+    line-height: 1.5;
+    background-color: #c4c2c2;
+}
+
+a {
+    color: white;
+    font-size: 17px;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #008000;
+}
+
+button, input[type=submit] {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    background-color: #008000;
+    border:2px solid green;
+    border-radius:8px;
+    width:250px;
+    color: white;
+    font-size: 17px;
+}
+
+input[type=email],[type=number],[type=text],[type=date],[type=password],[type=radio],[type=tel] {
+    display: inline-block;
+    float: right;
+}
+
+.labelGender {
+    float: right;
+}
